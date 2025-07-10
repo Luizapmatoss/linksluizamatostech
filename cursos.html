@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/curso.css">
+    <title>Cursos Gratuitos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Cursos Gratuitos
+        </h1>
+        <p class="subtitle">
+            cursos online na área de tecnologia!
+        </p>
+
+        <div class="filtros">
+            <button onclick="filtrarCursos('todos')">Todos</button>
+            <button onclick="filtrarCursos('python')">Python</button>
+            <button onclick="filtrarCursos('java')">Java</button>
+            <button onclick="filtrarCursos('logica')">Lógica</button>
+            <button onclick="filtrarCursos('programacao')">Programação</button>
+        </div>
+    </div>
+
+    <div class="container-cursos">
+        <div class="card curso" data-categoria="python" onclick="window.open('https://www.ev.org.br/cursos/linguagem-de-programacao-python-basico')">
+            <h3>Introdução a Python</h3>
+            <p>
+                - Básico<br>
+                - Fundação Bradesco
+            </p>
+        </div>
+
+        <div class="card curso" data-categoria="java" onclick="window.open('https://www.ev.org.br/cursos/introducao-a-programacao-orientada-a-objetos-poo')">
+            <h3>Introdução a POO</h3>
+            <p>
+                - Básico<br>
+                - Fundação Bradesco
+            </p>
+        </div>
+
+        <div class="card curso" data-categoria="logica" onclick="window.open('https://www.sp.senai.br/curso/competencia-transversal-logica-de-programacao/95088')">
+            <h3>Lógica de Programação</h3>
+            <p>
+                - Básico<br>
+                - Senai SP
+            </p>
+        </div>
+
+        <div class="card curso" data-categoria="python" onclick="window.open('https://www.escolavirtual.gov.br/curso/629')">
+            <h3>Aprendendo com Python</h3>
+            <p>
+                - Básico<br>
+                - Escola Virtural Gov
+            </p>
+        </div>
+
+        <div class="card curso" data-categoria="programacao" onclick="window.open('https://ebaconline.com.br/introducao-a-programacao')">
+            <h3>Introdução a Programação</h3>
+            <p>
+                - Básico<br>
+                - Ebac
+            </p>
+        </div>
+
+    </div>
+
+</body>
+<script src="javascript/cursos.js"></script>
+
+</html>
