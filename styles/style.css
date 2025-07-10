@@ -11,6 +11,11 @@ body {
     background-color: gray;
 }
 
+.conteudo {
+    position: relative;
+    z-index: 2;
+}
+
 .shape {
     background-color: pink;
     width: 100%;
@@ -19,7 +24,7 @@ body {
     border-radius: 0% 0% 70% 70%;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 0;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -45,7 +50,6 @@ h1 {
     color: pink;
     font-weight: 100;
     font-size: 3.8rem;
-    z-index: 1;
     text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
 
 }
